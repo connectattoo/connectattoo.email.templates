@@ -11,7 +11,8 @@ import {
   Heading,
   Text,
 } from '@react-email/components'
-import { EmailConfirmationProps } from 'emails/types'
+import { EmailConfirmationProps } from './types'
+
 import * as React from 'react'
 
 export default function EmailConfirmation(props: Readonly<EmailConfirmationProps>) {
